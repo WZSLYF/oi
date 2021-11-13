@@ -98,6 +98,8 @@ inline T Max(const T& a, const T& b) { return a > b ? a : b; }
 template<class T>
 inline T Min(const T& a, const T& b) { return a < b ? a : b; }
 
+const int 
+
 int main() {
     return 0;
 }
