@@ -122,9 +122,6 @@ int getans(int lef, int rig) {
     }
     else {
         for(re int i = p + 1; i <= q - 1; ++i) ans += sum1[i];
-        for(re int i = lef;i <= b * p; ++i) ans += cnt[i];
-        for(re int i = (q - 1) * b + 1; i <= rig; ++i) ans += cnt[i];
-    }
     return ans;
 }
 
